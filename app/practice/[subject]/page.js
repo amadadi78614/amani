@@ -229,9 +229,34 @@ export default function PracticePage({ params }) {
                       </div>
                     </div>
                     <div className="prose max-w-none">
-                      <pre className="whitespace-pre-wrap font-sans text-gray-800 leading-relaxed">
-                        {question.questionText}
-                      </pre>
+                      <div className="text-gray-800 leading-relaxed space-y-2">
+                        {question.questionText.split('\n').map((line, i) => {
+                          // Skip empty lines and page numbers
+                          const trimmedLine = line.trim();
+                          if (!trimmedLine || 
+                              trimmedLine.match(/^Page \d+/i) ||
+                              trimmedLine.match(/^Mathematics\/P1/i) ||
+                              trimmedLine.match(/^NSC/i) ||
+                              trimmedLine.match(/^Copyright/i) ||
+                              trimmedLine.match(/^DBE\//i) ||
+                              trimmedLine.match(/^\[.*marks?\]$/i) ||
+                              trimmedLine.length < 3) {
+                            return null;
+                          }
+                          
+                          // Check if line looks like a sub-question number
+                          const isSubQuestion = trimmedLine.match(/^\d+\.\d+(\.\d+)?/);
+                          
+                          return (
+                            <p 
+                              key={i} 
+                              className={`${isSubQuestion ? 'font-semibold text-blue-700 mt-3' : ''}`}
+                            >
+                              {trimmedLine}
+                            </p>
+                          );
+                        })}
+                      </div>
                     </div>
                     <div className="mt-4 flex flex-wrap gap-2">
                       {question.topics.map(topic => (
