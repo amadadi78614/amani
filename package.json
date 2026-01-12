@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "scrape": "node scripts/scraper.js",
-    "parse": "node scripts/pdfParser.js"
+    "parse": "node scripts/pdfParser.js",
+    "extract": "node scripts/manualExtractor.js"
   },
   "dependencies": {
     "next": "^14.2.0",
