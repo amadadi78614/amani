@@ -4,13 +4,12 @@
     "name": "Mathematics",
     "grades": [11, 12],
     "topics": [
-      "Algebra",
-      "Functions",
-      "Trigonometry",
-      "Calculus",
-      "Geometry",
-      "Statistics",
-      "Finance"
+      "1. Algebra, Equations & Inequalities",
+      "2. Number Patterns & Sequences",
+      "3. Functions & Graphs",
+      "4. Financial Mathematics",
+      "5. Differential Calculus",
+      "6. Probability"
     ]
   },
   "physical-sciences": {
