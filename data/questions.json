@@ -1,0 +1,161 @@
+{
+  "Mathematics": {
+    "12": {
+      "Algebra": [
+        {
+          "id": "math-12-alg-001",
+          "subject": "Mathematics",
+          "grade": 12,
+          "year": 2023,
+          "source": "DBE Official",
+          "questionNumber": "1.1",
+          "questionText": "Simplify the following expression:\n\n(3x + 2)(2x - 5) - 6x²\n\nShow all working. (3)",
+          "topics": ["Algebra", "Expressions"],
+          "marks": 3
+        },
+        {
+          "id": "math-12-alg-002",
+          "subject": "Mathematics",
+          "grade": 12,
+          "year": 2022,
+          "source": "DBE Official",
+          "questionNumber": "2.1",
+          "questionText": "Solve for x:\n\n3x² - 5x - 2 = 0\n\n(4)",
+          "topics": ["Algebra", "Equations"],
+          "marks": 4
+        }
+      ],
+      "Functions": [
+        {
+          "id": "math-12-func-001",
+          "subject": "Mathematics",
+          "grade": 12,
+          "year": 2023,
+          "source": "DBE Official",
+          "questionNumber": "3.1",
+          "questionText": "Given f(x) = 2x² - 3x + 1\n\n3.1.1 Calculate f(-2). (2)\n3.1.2 Determine the axis of symmetry. (3)",
+          "topics": ["Functions", "Parabola"],
+          "marks": 5
+        }
+      ],
+      "Calculus": [
+        {
+          "id": "math-12-calc-001",
+          "subject": "Mathematics",
+          "grade": 12,
+          "year": 2023,
+          "source": "DBE Official",
+          "questionNumber": "5.1",
+          "questionText": "Determine dy/dx if:\n\ny = 3x³ - 2x² + 5x - 7\n\n(4)",
+          "topics": ["Calculus", "Derivatives"],
+          "marks": 4
+        }
+      ]
+    },
+    "11": {
+      "Algebra": [
+        {
+          "id": "math-11-alg-001",
+          "subject": "Mathematics",
+          "grade": 11,
+          "year": 2023,
+          "source": "DBE Official",
+          "questionNumber": "1.1",
+          "questionText": "Factorise fully:\n\n2x² + 5x - 3\n\n(2)",
+          "topics": ["Algebra", "Factorisation"],
+          "marks": 2
+        }
+      ]
+    }
+  },
+  "Physical Sciences": {
+    "12": {
+      "Mechanics": [
+        {
+          "id": "phys-12-mech-001",
+          "subject": "Physical Sciences",
+          "grade": 12,
+          "year": 2023,
+          "source": "DBE Official",
+          "questionNumber": "2.1",
+          "questionText": "A car accelerates from rest to 25 m/s in 5 seconds.\n\n2.1.1 Calculate the acceleration. (3)\n2.1.2 Calculate the distance traveled. (4)",
+          "topics": ["Mechanics", "Motion"],
+          "marks": 7
+        }
+      ],
+      "Electricity": [
+        {
+          "id": "phys-12-elec-001",
+          "subject": "Physical Sciences",
+          "grade": 12,
+          "year": 2023,
+          "source": "DBE Official",
+          "questionNumber": "4.1",
+          "questionText": "A circuit has a 12V battery and three resistors in series: 2Ω, 3Ω, and 5Ω.\n\n4.1.1 Calculate the total resistance. (2)\n4.1.2 Calculate the current through the circuit. (3)",
+          "topics": ["Electricity", "Circuits"],
+          "marks": 5
+        }
+      ]
+    },
+    "11": {
+      "Mechanics": [
+        {
+          "id": "phys-11-mech-001",
+          "subject": "Physical Sciences",
+          "grade": 11,
+          "year": 2023,
+          "source": "DBE Official",
+          "questionNumber": "1.1",
+          "questionText": "Define Newton's First Law of Motion. (2)",
+          "topics": ["Mechanics", "Newton's Laws"],
+          "marks": 2
+        }
+      ]
+    }
+  },
+  "Life Sciences": {
+    "12": {
+      "Cell Biology": [
+        {
+          "id": "life-12-cell-001",
+          "subject": "Life Sciences",
+          "grade": 12,
+          "year": 2023,
+          "source": "DBE Official",
+          "questionNumber": "1.1",
+          "questionText": "Describe the stages of mitosis.\n\n(6)",
+          "topics": ["Cell Biology", "Mitosis"],
+          "marks": 6
+        }
+      ],
+      "Genetics": [
+        {
+          "id": "life-12-gen-001",
+          "subject": "Life Sciences",
+          "grade": 12,
+          "year": 2023,
+          "source": "DBE Official",
+          "questionNumber": "3.1",
+          "questionText": "Explain the role of DNA in protein synthesis.\n\n(5)",
+          "topics": ["Genetics", "DNA"],
+          "marks": 5
+        }
+      ]
+    },
+    "11": {
+      "Cell Biology": [
+        {
+          "id": "life-11-cell-001",
+          "subject": "Life Sciences",
+          "grade": 11,
+          "year": 2023,
+          "source": "DBE Official",
+          "questionNumber": "1.1",
+          "questionText": "Name THREE organelles found in a plant cell. (3)",
+          "topics": ["Cell Biology", "Organelles"],
+          "marks": 3
+        }
+      ]
+    }
+  }
+}

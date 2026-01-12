@@ -1,0 +1,39 @@
+{
+  "mathematics": {
+    "id": "mathematics",
+    "name": "Mathematics",
+    "grades": [11, 12],
+    "topics": [
+      "Algebra",
+      "Functions",
+      "Trigonometry",
+      "Calculus",
+      "Geometry",
+      "Statistics",
+      "Finance"
+    ]
+  },
+  "physical-sciences": {
+    "id": "physical-sciences",
+    "name": "Physical Sciences",
+    "grades": [11, 12],
+    "topics": [
+      "Mechanics",
+      "Waves",
+      "Electricity",
+      "Chemistry"
+    ]
+  },
+  "life-sciences": {
+    "id": "life-sciences",
+    "name": "Life Sciences",
+    "grades": [11, 12],
+    "topics": [
+      "Cell Biology",
+      "Genetics",
+      "Evolution",
+      "Human Biology",
+      "Ecology"
+    ]
+  }
+}
